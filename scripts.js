@@ -4,7 +4,10 @@
 //this will be the function to bring myRecords in
 function beginJSON(jsonData){
 	console.log(jsonData);
-	
+	var myRecordsDiv = $("<div>");
+	//add records to div
+	$(myRecordsDiv).html(jsonData.Records[0].name);
+	$("#jsonGoesHere").append(myRecordsDiv);
 	
 }
 //This will tell me when my page is loaded
@@ -12,7 +15,7 @@ function dataLoaded(){
 
 //create a json div
 var jqdiv = $("<div>");
-$(jqdiv).html("this is my jQuery div.");
+$(jqdiv).html("jquery div");
 $("#jsonGoesHere").append(jqdiv);
 //this shows my doc is loaded, my function is working and 
 //script is going to my html page
