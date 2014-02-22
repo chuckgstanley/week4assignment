@@ -1,0 +1,32 @@
+{
+    "myRecords": [
+        {
+            "name": "Sgt. Pepper",
+            "artist": "Beatles"
+        },
+        {
+            "name": "Sticky Fingers",
+            "artist": "Rolling Stones"
+        },
+        {
+            "name": "A Love Supreme",
+            "artist": "John Coltrane"
+        },
+        {
+            "name": "Abbey Road",
+            "artist": "Beatles"
+        },
+        {
+            "name": "Blood on the Tracks",
+            "artist": "Bob Dylan"
+        },
+        {
+            "name": "Help!",
+            "artist": "Beatles"
+        },
+        {
+            "name": "Thriller",
+            "artist": "Michael Jackson"
+        }
+    ]
+}
