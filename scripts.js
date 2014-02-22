@@ -1,6 +1,12 @@
 /**
  * @author Peterphobia
  */
+//this will be the function to bring myRecords in
+function beginJSON(jsonData){
+	console.log(jsonData);
+	
+	
+}
 //This will tell me when my page is loaded
 function dataLoaded(){
 
@@ -14,16 +20,10 @@ console.log ("Document is Loaded");
 	
 }
 
-//Set up a jquery div
-
-
-
-//Put jqdiv into html div
-//I should see "jquery displayed"
 
 //use the jquery function to get myRecords file
 //get the name, function, and type of file
-
+$.get("myRecords.json", beginJSON, "json" )
 
 $(document).ready(dataLoaded);
 
