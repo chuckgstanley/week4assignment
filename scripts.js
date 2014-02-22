@@ -4,6 +4,12 @@
 //This will tell me when my page is loaded
 function dataLoaded(){
 
+//create a json div
+var jqdiv = $("<div>");
+$(jqdiv).html("this is my jQuery div.");
+$("#jsonGoesHere").append(jqdiv);
+//this shows my doc is loaded, my function is working and 
+//script is going to my html page
 console.log ("Document is Loaded");
 	
 }
